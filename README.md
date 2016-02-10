@@ -132,7 +132,7 @@
       
       this(); //refer to default constructor in Name
       this("hello", "world"); // refer to 2nd constrctor in Name.
-  
+      Class method cannot use "this" keyword as there is no instance for this to refer to
   
   public class NameNew {
     private String first; //first name
@@ -142,5 +142,49 @@
     public void setLast(String lastName) {
       last = lastName;
     }
+    //complete the code later 
+    
+    ------------------------------------------------------------------------------------------------February 11th.
+    
+    If this is a referrence data type, have to have referrence.
+    
+    To return a reference to the current object, use "return this"
+    
+    
+    When a class has a data field that is an instance of another class.
+    
+    public class Student {
+      public Student() {
+        private Name student;
+        public String id;
+      }
+      ....
+    }
+    
+    Generic Types: for a class with fields that can be of any class type
+    Syntax to define a generic type in a class: public class MyClass <T>
+    
+    
+    
+    public class OrderedPair{
+    
+    .....
+    
+    
+    } //complete later
+    
+    
+    OrderedPair <String> fruit = new OrderedPair <String> ();
+    fruit.setPair ("apples", "oranges"); 
+    
+    Generic type : Primitive types are not allowed! should use wrapper class.***
+    
+    Restriction on Generics: //later on ilearn.
+    
+    OrderedPair <int> my Obj = ......; wrong
+    OrderedPair <Integer> myObj = ......; correct!
+    *******************************************************
+    Inheritance ("is a" relationship)
+      A general class (or base class, or super class, or parent class) is first defined. Then a derived class (subclass or child class)       is defined.
     
     
