@@ -187,4 +187,24 @@
     Inheritance ("is a" relationship)
       A general class (or base class, or super class, or parent class) is first defined. Then a derived class (subclass or child class)       is defined.
     
+      //Part missing (extend)
+      
+     *************************************************
+      
+      
+      Abstract mehtod
+      
+      abstract class GraphicObject {
+        int x, y;
+        ...
+        void moveTo(int newX, int newY) {
+        ....
+        }
+      }
+      //Non-abstract class is called concrete class. If there is one method which is abstract, the class has to be abstract.
+      
+      
+      ------------------------------------
+      
+      `
     
