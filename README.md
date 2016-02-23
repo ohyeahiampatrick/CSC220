@@ -206,5 +206,8 @@
       
       ------------------------------------
       
-      `
+      int CompareTo(T y);
+      //this < y -int
+      //this = y 0
+      //this > y +int
     
