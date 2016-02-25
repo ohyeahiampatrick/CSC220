@@ -211,3 +211,32 @@
       //this = y 0
       //this > y +int
     
+    
+    
+    
+    ---------------------------------------------
+    try {
+      .
+      s1
+      s2
+      s3
+      s4
+      .
+    }
+    Catch (RuntimeError x) {    //a happen here                                       //------     ioexception    b
+      .                                              //Exception -----
+      s5                                                               //------     runtimeerror   a
+      s6
+      .
+    }
+    Catch (Exception x) {       //b happen here
+      .
+      s7
+      s8
+      .
+    }
+    
+    finally {
+      s9
+      s10
+    }
