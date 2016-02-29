@@ -240,3 +240,34 @@
       s9
       s10
     }
+    ----------------------------------------------------------------------------------------Feb. 27th.
+    
+    
+    Data Structure starts here:
+    
+    Modules:
+    
+    --store data
+    --modifying data
+    --move and alter data
+    
+    modulalilty
+    --abstraction
+    
+    
+    data abstraction:
+    --different way to organize data
+    
+    Abstract data type: ADT
+    
+    --type of data
+    --operation to support data
+
+
+    Encapsulation
+    
+    
+    UML: unifying modeling language
+    private (-)
+    public  (+)
+    protect (#)
