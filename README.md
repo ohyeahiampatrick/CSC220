@@ -271,3 +271,55 @@
     private (-)
     public  (+)
     protect (#)
+
+
+
+
+                    ------ ArrayBag (fixed size array)
+    Bag Interface -------- Linked list (chapter 5)
+                    ------ arrayBag (dynamic size array)
+                    
+    With a size fixed array, if we need a larger bag, popular soluton is to move its contents to a larger array(dynamic expansion) copdy data from original to new locatiion, manipulate name so new location keeps name of original array.
+    --expand array in our program
+    
+    
+    or using vector(class, not gonna use for now)
+    
+    
+    
+    Also, a predefinedstatic method copyOf() in class Arrays:
+    static T[] copyOf(t [] original, int newLength);
+    
+    
+    
+    Use array expansion to implement Bag, just update add() methods in previous implementation.
+    
+    Notes: 
+     add() never return false.
+     isFull() never return false.
+     private T[]bag; //remove "final" modifier.
+     
+     if you can use the method by its class's name. e.g. bag = Arrays.copyOf(bag, 2*bag.length); the class is static.
+     
+     
+     
+     Chapter 5.|---------------------------|
+               V                           V
+               
+               
+        1. Bag Implementation that Links Data (Linked List)
+        
+        1st data ---- firstNode.data
+        1st node ---- firstNode
+        
+        2nd data ---- firstNode.next.data
+        2nd node ---- firstNode.next
+        
+        3rd data ---- firstNode.next.next.data
+        3rd node ---- firstNode.next.next
+        
+        If we create a new node. We use firstNode = newNode;
+        If we want to make the new node become the first node of existed node above.
+        
+        1. newNode.next = firstNode;
+        2. firstnode = newNode;
