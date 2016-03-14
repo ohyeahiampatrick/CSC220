@@ -323,3 +323,8 @@
         
         1. newNode.next = firstNode;
         2. firstnode = newNode;
+
+
+        Override -- if Class X is superclass and Y Z  are its subclass. mehtod f1(); in X can be used(override) in Y Z.
+        
+        
