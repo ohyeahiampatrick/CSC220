@@ -328,3 +328,10 @@
         Override -- if Class X is superclass and Y Z  are its subclass. mehtod f1(); in X can be used(override) in Y Z.
         
         
+        Note tmp = first.note;
+        while (tmp != null) {
+        ...
+          if (findObject.equal(tmp.data)) {
+          tmp data = replaceObject.data
+          return true;
+        }
